@@ -299,12 +299,12 @@ $cyans: (
 
 // scss-docs-start theme-color-variables
 $primary:       #030303 !default; //$blue
-$secondary:     $gray-600 !default;
+$secondary:     #FBFF22 !default; //$gray-600
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
+$light:         #F3F1E5 !default; //$gray-100
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
 
@@ -316,7 +316,7 @@ $theme-colors: (
   "info":       $info,
   "warning":    $warning,
   "danger":     $danger,
-  "light":      $light,
+  "light":      $light, 
   "dark":       $dark
 ) !default;
 // scss-docs-end theme-colors-map
@@ -378,7 +378,9 @@ $spacers: (
   2: $spacer * .5,
   3: $spacer,
   4: $spacer * 1.5,
-  5: $spacer * 3,
+  5: $spacer * 2, //5: $spacer * 3,
+  6: $spacer * 3,
+  7: $spacer * 3.75,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -407,7 +409,7 @@ $body-text-align:           null !default;
 // Style anchor elements.
 
 $link-color:                              $primary !default;
-$link-decoration:                         underline !default;
+$link-decoration:                         none !default; //underline
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration:                   null !default;
@@ -566,11 +568,11 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
-$h1-font-size:                $font-size-base * 2.5 !default;
-$h2-font-size:                $font-size-base * 2 !default;
-$h3-font-size:                $font-size-base * 1.75 !default;
-$h4-font-size:                $font-size-base * 1.5 !default;
-$h5-font-size:                $font-size-base * 1.25 !default;
+$h1-font-size:                $font-size-base * 4 !default; //2.5
+$h2-font-size:                $font-size-base * 3 !default; //2
+$h3-font-size:                $font-size-base * 2 !default; //1.75
+$h4-font-size:                $font-size-base * 1.5 !default; //1.5
+$h5-font-size:                $font-size-base * 1.25 !default; //1.25
 $h6-font-size:                $font-size-base !default;
 // scss-docs-end font-variables
 
@@ -1192,20 +1194,20 @@ $pagination-padding-x-lg:           1.5rem !default;
 $pagination-font-size:              $font-size-base !default;
 
 $pagination-color:                  var(--#{$prefix}link-color) !default;
-$pagination-bg:                     $white !default;
+$pagination-bg:                     $light !default; //$white
 $pagination-border-radius:          $border-radius !default;
-$pagination-border-width:           $border-width !default;
+$pagination-border-width:           1px !default;//$border-width
 $pagination-margin-start:           ($pagination-border-width * -1) !default;
-$pagination-border-color:           $gray-300 !default;
+$pagination-border-color:           $primary !default; //$gray-300
 
 $pagination-focus-color:            var(--#{$prefix}link-hover-color) !default;
 $pagination-focus-bg:               $gray-200 !default;
 $pagination-focus-box-shadow:       $input-btn-focus-box-shadow !default;
 $pagination-focus-outline:          0 !default;
 
-$pagination-hover-color:            var(--#{$prefix}link-hover-color) !default;
-$pagination-hover-bg:               $gray-200 !default;
-$pagination-hover-border-color:     $gray-300 !default;
+$pagination-hover-color:            $secondary !default;//var(--#{$prefix}link-hover-color)
+$pagination-hover-bg:               $primary !default; //$gray-200
+$pagination-hover-border-color:     $primary !default;//$gray-300
 
 $pagination-active-color:           $component-active-color !default;
 $pagination-active-bg:              $component-active-bg !default;

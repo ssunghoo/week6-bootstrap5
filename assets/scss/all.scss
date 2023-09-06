@@ -10,19 +10,7 @@
 @import './layout/header.scss';
 @import './layout/footer.scss';
 @import './pages/index.scss';
-@import './layout/icofont.min.css';
+@import '../scss/layout/icofont/icofont.min.css';
 
 
-body{
-    background: #F3F1E5;
-    font-family: 'Noto Serif TC';
-}
 
-.logo{
-    width: 53px;
-    height: 53px;
-}
-
-nav{
-    font-family: 'Yeseva One', 'Noto Serif TC';
-}

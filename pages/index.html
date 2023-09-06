@@ -1,22 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
   <%- include('./layout/head'); -%>
-  <link rel="stylesheet" type="text/css" href="../assets/scss/layout/.css">
+
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
+    <div class="container">
+      <!--banner-->
+      <div class="bg-cover mt-5 mb-5 d-flex flex-column">
+        <div class="index-title pt-6 ps-6 mb-auto">19 MAY 2023</div>
+        <div class="fs-4 mb-1 text-center my-auto">隔牆有耳-沒有草東的派對</div>
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <p class="text-center">你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！ 帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！</p>
+          </div>
+        </div>
+      </div>
+      <!--探索-->
+      <div class="row align-items-stretch mb-2">
+        <div class="col-4 col-md-2 mb-4">
+          <a href="#">
+            <div class="border border-2 border-dark text-center py-5">
+              <img class="img-fluid mx-auto d-block px-6" src="../assets/images/cate01.svg" alt="">
+              <div class="fs-4 pt-2">演出</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <a href="#">
+            <div class="border border-2 border-dark text-center py-5">
+              <img class="img-fluid mx-auto d-block px-6" src="../assets/images/cate02.svg" alt="">
+              <div class="fs-4 pt-2">聯誼</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <a href="#">
+            <div class="border border-2 border-dark text-center py-5">
+              <img class="img-fluid mx-auto d-block px-6" src="../assets/images/cate03.svg" alt="">
+              <div class="fs-4 pt-2">展覽</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <a href="#">
+            <div class="border border-2 border-dark text-center py-5">
+              <img class="img-fluid mx-auto d-block px-6" src="../assets/images/cate04.svg" alt="">
+              <div class="fs-4 pt-2">美食</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <a href="#">
+            <div class="border border-2 border-dark text-center py-5">
+              <img class="img-fluid mx-auto d-block px-6" src="../assets/images/cate05.svg" alt="">
+              <div class="fs-4 pt-2">戶外</div>
+            </div>
+          </a>
+        </div>
+        <div class="col-4 col-md-2 mb-4">
+          <a href="contact.html">
+            <div class="bg-dark h-100 d-flex justify-content-center align-items-center">
+              <div class="fs-2 pt-2 text-secondary lh-sm fw-bolder">探索<br>更多</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--RECENT-->
+    <div class="container">
+      <div class="border border-2 border-dark d-flex justify-content-between align-items-center px-5 py-4 mb-5">
+        <div class="fs-1">RECENT</div>
+        <div class="fs-4 fw-bold">近期活動</div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-4 mb-md-6 mb-4">
+          <div class="fs-2 border-bottom border-3 border-dark mb-3">19 MAY 2023</div>
+          <img class="img-fluid mb-3" src="../assets/images/event/01.jpg" alt="01">
+          <h4 class="mb-3 fw-bold">邪典電影派對——房間</h4>
+          <p>你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+          <div class="d-flex justify-content-between align-items-center border-top border-bottom border-2 border-dark py-1">
+            <div class="py-1 fw-bold d-flex align-items-center">
+              <a class="d-flex align-items-center" href="#">
+                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_4497_768)">
+                  <path d="M23.625 12C23.625 12 22.635 12.1875 20.7787 12.375C18.9225 12.5625 16.2037 12.75 12.75 12.75C12.75 19.6575 12 23.625 12 23.625C12 23.625 11.8125 22.635 11.625 20.7787C11.4375 18.9225 11.25 16.2037 11.25 12.75C4.3425 12.75 0.375 12 0.375 12C0.375 12 1.365 11.8125 3.22125 11.625C5.0775 11.4375 7.79625 11.25 11.25 11.25C11.25 4.3425 12 0.375 12 0.375C12 0.375 12.75 4.3425 12.75 11.25C19.6575 11.25 23.625 12 23.625 12Z" fill="#030303"/>
+                  <path d="M12.75 10.5C15 7.5 17.25 6.75 17.25 6.75C16.2833 8.46505 15.0126 9.98989 13.5 11.25" fill="#030303"/>
+                  <path d="M10.5 11.25C7.5 9 6.75 6.75 6.75 6.75C8.46505 7.71668 9.98989 8.98738 11.25 10.5" fill="#030303"/>
+                  <path d="M11.25 13.5C9 16.5 6.75 17.25 6.75 17.25C7.71668 15.5349 8.98738 14.0101 10.5 12.75" fill="#030303"/>
+                  <path d="M13.5 12.75C16.5 15 17.25 17.25 17.25 17.25C15.5349 16.2833 14.0101 15.0126 12.75 13.5" fill="#030303"/>
+                  <path d="M12 13.875C13.0355 13.875 13.875 13.0355 13.875 12C13.875 10.9645 13.0355 10.125 12 10.125C10.9645 10.125 10.125 10.9645 10.125 12C10.125 13.0355 10.9645 13.875 12 13.875Z" fill="#030303"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4497_768">
+                  <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg><span class="hover-underline">遊戲競賽</span>
+              </a>
+              
+            </div>
+            <p class="m-0">
+              <a class="fw-bolder hover-secondary" href="#">
+                開賣中
+                <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M12.6144 7.55195L9.3632 4.30075C9.1152 4.05275 8.7136 4.05275 8.4656 4.30075L8.1856 4.58075C7.9376 4.82875 7.9376 5.23035 8.1856 5.47835L10.2608 7.55355C10.3856 7.67835 10.4464 7.83995 10.4464 8.00155C10.4464 8.16315 10.384 8.32635 10.2608 8.44955L8.1856 10.5247C7.9376 10.7727 7.9376 11.1743 8.1856 11.4223L8.4656 11.7023C8.7136 11.9471 9.1152 11.9471 9.3632 11.6991L12.6144 8.44795C12.7392 8.32315 12.8 8.16155 12.8 7.99995C12.8 7.83835 12.7376 7.67515 12.6144 7.55195ZM7.8144 7.55195L4.5632 4.30075C4.3152 4.05275 3.9136 4.05275 3.6656 4.30075L3.3856 4.58075C3.1376 4.82875 3.1376 5.23035 3.3856 5.47835L5.4608 7.55355C5.5856 7.67835 5.6464 7.83995 5.6464 8.00155C5.6464 8.16315 5.584 8.32635 5.4608 8.44955L3.3856 10.5247C3.1376 10.7727 3.1376 11.1743 3.3856 11.4223L3.6656 11.7023C3.9136 11.9471 4.3152 11.9471 4.5632 11.6991L7.8144 8.44795C7.9392 8.32315 8 8.16155 8 7.99995C8 7.83835 7.9376 7.67515 7.8144 7.55195Z" fill="black"/>
+                  </svg>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-md-6 mb-4">
+          <div class="fs-2 border-bottom border-3 border-dark mb-3">23 MAY 2023</div>
+          <img class="img-fluid mb-3" src="../assets/images/event/02.jpg" alt="02">
+          <h4 class="mb-3 fw-bold">怪舞俱樂部</h4>
+          <p>覺得自己的舞蹈細胞異於常人？每次隨著音樂起舞身邊的人總是露出無法理解的表情？來這裡就對了！來參加這場一起跳舞的聚會，也會在每一次的舞會中選出舞步最怪的...</p>
+          <div class="d-flex justify-content-between align-items-center border-top border-bottom border-2 border-dark py-1">
+            <div class="py-1 fw-bold d-flex align-items-center">
+              <a class="d-flex align-items-center" href="#">
+                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_4497_768)">
+                  <path d="M23.625 12C23.625 12 22.635 12.1875 20.7787 12.375C18.9225 12.5625 16.2037 12.75 12.75 12.75C12.75 19.6575 12 23.625 12 23.625C12 23.625 11.8125 22.635 11.625 20.7787C11.4375 18.9225 11.25 16.2037 11.25 12.75C4.3425 12.75 0.375 12 0.375 12C0.375 12 1.365 11.8125 3.22125 11.625C5.0775 11.4375 7.79625 11.25 11.25 11.25C11.25 4.3425 12 0.375 12 0.375C12 0.375 12.75 4.3425 12.75 11.25C19.6575 11.25 23.625 12 23.625 12Z" fill="#030303"/>
+                  <path d="M12.75 10.5C15 7.5 17.25 6.75 17.25 6.75C16.2833 8.46505 15.0126 9.98989 13.5 11.25" fill="#030303"/>
+                  <path d="M10.5 11.25C7.5 9 6.75 6.75 6.75 6.75C8.46505 7.71668 9.98989 8.98738 11.25 10.5" fill="#030303"/>
+                  <path d="M11.25 13.5C9 16.5 6.75 17.25 6.75 17.25C7.71668 15.5349 8.98738 14.0101 10.5 12.75" fill="#030303"/>
+                  <path d="M13.5 12.75C16.5 15 17.25 17.25 17.25 17.25C15.5349 16.2833 14.0101 15.0126 12.75 13.5" fill="#030303"/>
+                  <path d="M12 13.875C13.0355 13.875 13.875 13.0355 13.875 12C13.875 10.9645 13.0355 10.125 12 10.125C10.9645 10.125 10.125 10.9645 10.125 12C10.125 13.0355 10.9645 13.875 12 13.875Z" fill="#030303"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4497_768">
+                  <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg><span class="hover-underline">遊戲競賽</span>
+              </a>
+              
+            </div>
+            <p class="m-0">
+              <a class="fw-bolder hover-secondary" href="#">
+                開賣中
+                <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M12.6144 7.55195L9.3632 4.30075C9.1152 4.05275 8.7136 4.05275 8.4656 4.30075L8.1856 4.58075C7.9376 4.82875 7.9376 5.23035 8.1856 5.47835L10.2608 7.55355C10.3856 7.67835 10.4464 7.83995 10.4464 8.00155C10.4464 8.16315 10.384 8.32635 10.2608 8.44955L8.1856 10.5247C7.9376 10.7727 7.9376 11.1743 8.1856 11.4223L8.4656 11.7023C8.7136 11.9471 9.1152 11.9471 9.3632 11.6991L12.6144 8.44795C12.7392 8.32315 12.8 8.16155 12.8 7.99995C12.8 7.83835 12.7376 7.67515 12.6144 7.55195ZM7.8144 7.55195L4.5632 4.30075C4.3152 4.05275 3.9136 4.05275 3.6656 4.30075L3.3856 4.58075C3.1376 4.82875 3.1376 5.23035 3.3856 5.47835L5.4608 7.55355C5.5856 7.67835 5.6464 7.83995 5.6464 8.00155C5.6464 8.16315 5.584 8.32635 5.4608 8.44955L3.3856 10.5247C3.1376 10.7727 3.1376 11.1743 3.3856 11.4223L3.6656 11.7023C3.9136 11.9471 4.3152 11.9471 4.5632 11.6991L7.8144 8.44795C7.9392 8.32315 8 8.16155 8 7.99995C8 7.83835 7.9376 7.67515 7.8144 7.55195Z" fill="black"/>
+                  </svg>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-md-6 mb-4">
+          <div class="fs-2 border-bottom border-3 border-dark mb-3">30 MAY 2023</div>
+          <img class="img-fluid mb-3" src="../assets/images/event/03.jpg" alt="03">
+          <h4 class="mb-3 fw-bold">哈利波特馬拉松</h4>
+          <p>每次身邊有人開啟哈利波特的話題，自己永遠都是聽不懂的那個麻瓜？看大家在討論魁地奇、用咒語鬥法的時候，自己永遠是陪笑的那個人？穿好你的法袍、帶上你的法杖...</p>
+          <div class="d-flex justify-content-between align-items-center border-top border-bottom border-2 border-dark py-1">
+            <div class="py-1 fw-bold d-flex align-items-center">
+              <a class="d-flex align-items-center" href="#">
+                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_4497_768)">
+                  <path d="M23.625 12C23.625 12 22.635 12.1875 20.7787 12.375C18.9225 12.5625 16.2037 12.75 12.75 12.75C12.75 19.6575 12 23.625 12 23.625C12 23.625 11.8125 22.635 11.625 20.7787C11.4375 18.9225 11.25 16.2037 11.25 12.75C4.3425 12.75 0.375 12 0.375 12C0.375 12 1.365 11.8125 3.22125 11.625C5.0775 11.4375 7.79625 11.25 11.25 11.25C11.25 4.3425 12 0.375 12 0.375C12 0.375 12.75 4.3425 12.75 11.25C19.6575 11.25 23.625 12 23.625 12Z" fill="#030303"/>
+                  <path d="M12.75 10.5C15 7.5 17.25 6.75 17.25 6.75C16.2833 8.46505 15.0126 9.98989 13.5 11.25" fill="#030303"/>
+                  <path d="M10.5 11.25C7.5 9 6.75 6.75 6.75 6.75C8.46505 7.71668 9.98989 8.98738 11.25 10.5" fill="#030303"/>
+                  <path d="M11.25 13.5C9 16.5 6.75 17.25 6.75 17.25C7.71668 15.5349 8.98738 14.0101 10.5 12.75" fill="#030303"/>
+                  <path d="M13.5 12.75C16.5 15 17.25 17.25 17.25 17.25C15.5349 16.2833 14.0101 15.0126 12.75 13.5" fill="#030303"/>
+                  <path d="M12 13.875C13.0355 13.875 13.875 13.0355 13.875 12C13.875 10.9645 13.0355 10.125 12 10.125C10.9645 10.125 10.125 10.9645 10.125 12C10.125 13.0355 10.9645 13.875 12 13.875Z" fill="#030303"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4497_768">
+                  <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg><span class="hover-underline">遊戲競賽</span>
+              </a>
+              
+            </div>
+            <p class="m-0">
+              <a class="fw-bolder hover-secondary" href="#">
+                開賣中
+                <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M12.6144 7.55195L9.3632 4.30075C9.1152 4.05275 8.7136 4.05275 8.4656 4.30075L8.1856 4.58075C7.9376 4.82875 7.9376 5.23035 8.1856 5.47835L10.2608 7.55355C10.3856 7.67835 10.4464 7.83995 10.4464 8.00155C10.4464 8.16315 10.384 8.32635 10.2608 8.44955L8.1856 10.5247C7.9376 10.7727 7.9376 11.1743 8.1856 11.4223L8.4656 11.7023C8.7136 11.9471 9.1152 11.9471 9.3632 11.6991L12.6144 8.44795C12.7392 8.32315 12.8 8.16155 12.8 7.99995C12.8 7.83835 12.7376 7.67515 12.6144 7.55195ZM7.8144 7.55195L4.5632 4.30075C4.3152 4.05275 3.9136 4.05275 3.6656 4.30075L3.3856 4.58075C3.1376 4.82875 3.1376 5.23035 3.3856 5.47835L5.4608 7.55355C5.5856 7.67835 5.6464 7.83995 5.6464 8.00155C5.6464 8.16315 5.584 8.32635 5.4608 8.44955L3.3856 10.5247C3.1376 10.7727 3.1376 11.1743 3.3856 11.4223L3.6656 11.7023C3.9136 11.9471 4.3152 11.9471 4.5632 11.6991L7.8144 8.44795C7.9392 8.32315 8 8.16155 8 7.99995C8 7.83835 7.9376 7.67515 7.8144 7.55195Z" fill="black"/>
+                  </svg>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-md-6 mb-4">
+          <div class="fs-2 border-bottom border-3 border-dark mb-3">12 June 2023</div>
+          <img class="mb-3 img-fluid img-cover" src="../assets/images/event/04.jpg" alt="04">
+          <h4 class="mb-3 fw-bold">皮卡丘排球大賽</h4>
+          <p>還記得小時候玩的小遊戲嗎？總是有朋友吹噓自己獨孤求敗、只求一敗？是時候該展現真正的實力了！本活動採用瑞士制賽程，以絕對公平的方式進行，是時候該證明自己...</p>
+          <div class="d-flex justify-content-between align-items-center border-top border-bottom border-2 border-dark py-1">
+            <div class="py-1 fw-bold d-flex align-items-center">
+              <a class="d-flex align-items-center" href="#">
+                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_4497_768)">
+                  <path d="M23.625 12C23.625 12 22.635 12.1875 20.7787 12.375C18.9225 12.5625 16.2037 12.75 12.75 12.75C12.75 19.6575 12 23.625 12 23.625C12 23.625 11.8125 22.635 11.625 20.7787C11.4375 18.9225 11.25 16.2037 11.25 12.75C4.3425 12.75 0.375 12 0.375 12C0.375 12 1.365 11.8125 3.22125 11.625C5.0775 11.4375 7.79625 11.25 11.25 11.25C11.25 4.3425 12 0.375 12 0.375C12 0.375 12.75 4.3425 12.75 11.25C19.6575 11.25 23.625 12 23.625 12Z" fill="#030303"/>
+                  <path d="M12.75 10.5C15 7.5 17.25 6.75 17.25 6.75C16.2833 8.46505 15.0126 9.98989 13.5 11.25" fill="#030303"/>
+                  <path d="M10.5 11.25C7.5 9 6.75 6.75 6.75 6.75C8.46505 7.71668 9.98989 8.98738 11.25 10.5" fill="#030303"/>
+                  <path d="M11.25 13.5C9 16.5 6.75 17.25 6.75 17.25C7.71668 15.5349 8.98738 14.0101 10.5 12.75" fill="#030303"/>
+                  <path d="M13.5 12.75C16.5 15 17.25 17.25 17.25 17.25C15.5349 16.2833 14.0101 15.0126 12.75 13.5" fill="#030303"/>
+                  <path d="M12 13.875C13.0355 13.875 13.875 13.0355 13.875 12C13.875 10.9645 13.0355 10.125 12 10.125C10.9645 10.125 10.125 10.9645 10.125 12C10.125 13.0355 10.9645 13.875 12 13.875Z" fill="#030303"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4497_768">
+                  <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg><span class="hover-underline">遊戲競賽</span>
+              </a>
+              
+            </div>
+            <p class="m-0">
+              <a class="fw-bolder hover-secondary" href="#">
+                開賣中
+                <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M12.6144 7.55195L9.3632 4.30075C9.1152 4.05275 8.7136 4.05275 8.4656 4.30075L8.1856 4.58075C7.9376 4.82875 7.9376 5.23035 8.1856 5.47835L10.2608 7.55355C10.3856 7.67835 10.4464 7.83995 10.4464 8.00155C10.4464 8.16315 10.384 8.32635 10.2608 8.44955L8.1856 10.5247C7.9376 10.7727 7.9376 11.1743 8.1856 11.4223L8.4656 11.7023C8.7136 11.9471 9.1152 11.9471 9.3632 11.6991L12.6144 8.44795C12.7392 8.32315 12.8 8.16155 12.8 7.99995C12.8 7.83835 12.7376 7.67515 12.6144 7.55195ZM7.8144 7.55195L4.5632 4.30075C4.3152 4.05275 3.9136 4.05275 3.6656 4.30075L3.3856 4.58075C3.1376 4.82875 3.1376 5.23035 3.3856 5.47835L5.4608 7.55355C5.5856 7.67835 5.6464 7.83995 5.6464 8.00155C5.6464 8.16315 5.584 8.32635 5.4608 8.44955L3.3856 10.5247C3.1376 10.7727 3.1376 11.1743 3.3856 11.4223L3.6656 11.7023C3.9136 11.9471 4.3152 11.9471 4.5632 11.6991L7.8144 8.44795C7.9392 8.32315 8 8.16155 8 7.99995C8 7.83835 7.9376 7.67515 7.8144 7.55195Z" fill="black"/>
+                  </svg>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-md-6 mb-4">
+          <div class="fs-2 border-bottom border-3 border-dark mb-3">25 June 2023</div>
+          <img class="img-fluid img-cover mb-3" src="../assets/images/event/05.jpg" alt="05">
+          <h4 class="mb-3 fw-bold">酒精路跑</h4>
+          <p>身邊總是有對自己酒量有高度自信的朋友嗎？拉著他/她一起來參加酒精路跑吧！一起拍下第一杯直到倒下為止的照片，一起喝遍市區內各家極具品味的酒吧。
+          </p>
+          <div class="d-flex justify-content-between align-items-center border-top border-bottom border-2 border-dark py-1">
+            <div class="py-1 fw-bold d-flex align-items-center">
+              <a class="d-flex align-items-center" href="#">
+                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_4497_768)">
+                  <path d="M23.625 12C23.625 12 22.635 12.1875 20.7787 12.375C18.9225 12.5625 16.2037 12.75 12.75 12.75C12.75 19.6575 12 23.625 12 23.625C12 23.625 11.8125 22.635 11.625 20.7787C11.4375 18.9225 11.25 16.2037 11.25 12.75C4.3425 12.75 0.375 12 0.375 12C0.375 12 1.365 11.8125 3.22125 11.625C5.0775 11.4375 7.79625 11.25 11.25 11.25C11.25 4.3425 12 0.375 12 0.375C12 0.375 12.75 4.3425 12.75 11.25C19.6575 11.25 23.625 12 23.625 12Z" fill="#030303"/>
+                  <path d="M12.75 10.5C15 7.5 17.25 6.75 17.25 6.75C16.2833 8.46505 15.0126 9.98989 13.5 11.25" fill="#030303"/>
+                  <path d="M10.5 11.25C7.5 9 6.75 6.75 6.75 6.75C8.46505 7.71668 9.98989 8.98738 11.25 10.5" fill="#030303"/>
+                  <path d="M11.25 13.5C9 16.5 6.75 17.25 6.75 17.25C7.71668 15.5349 8.98738 14.0101 10.5 12.75" fill="#030303"/>
+                  <path d="M13.5 12.75C16.5 15 17.25 17.25 17.25 17.25C15.5349 16.2833 14.0101 15.0126 12.75 13.5" fill="#030303"/>
+                  <path d="M12 13.875C13.0355 13.875 13.875 13.0355 13.875 12C13.875 10.9645 13.0355 10.125 12 10.125C10.9645 10.125 10.125 10.9645 10.125 12C10.125 13.0355 10.9645 13.875 12 13.875Z" fill="#030303"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4497_768">
+                  <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg><span class="hover-underline">遊戲競賽</span>
+              </a>
+              
+            </div>
+            <p class="m-0">
+              <a class="fw-bolder hover-secondary" href="#">
+                開賣中
+                <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M12.6144 7.55195L9.3632 4.30075C9.1152 4.05275 8.7136 4.05275 8.4656 4.30075L8.1856 4.58075C7.9376 4.82875 7.9376 5.23035 8.1856 5.47835L10.2608 7.55355C10.3856 7.67835 10.4464 7.83995 10.4464 8.00155C10.4464 8.16315 10.384 8.32635 10.2608 8.44955L8.1856 10.5247C7.9376 10.7727 7.9376 11.1743 8.1856 11.4223L8.4656 11.7023C8.7136 11.9471 9.1152 11.9471 9.3632 11.6991L12.6144 8.44795C12.7392 8.32315 12.8 8.16155 12.8 7.99995C12.8 7.83835 12.7376 7.67515 12.6144 7.55195ZM7.8144 7.55195L4.5632 4.30075C4.3152 4.05275 3.9136 4.05275 3.6656 4.30075L3.3856 4.58075C3.1376 4.82875 3.1376 5.23035 3.3856 5.47835L5.4608 7.55355C5.5856 7.67835 5.6464 7.83995 5.6464 8.00155C5.6464 8.16315 5.584 8.32635 5.4608 8.44955L3.3856 10.5247C3.1376 10.7727 3.1376 11.1743 3.3856 11.4223L3.6656 11.7023C3.9136 11.9471 4.3152 11.9471 4.5632 11.6991L7.8144 8.44795C7.9392 8.32315 8 8.16155 8 7.99995C8 7.83835 7.9376 7.67515 7.8144 7.55195Z" fill="black"/>
+                  </svg>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-md-6 mb-4">
+          <div class="fs-2 border-bottom border-3 border-dark mb-3">9 July 2023</div>
+          <img class="img-fluid img-cover mb-3" src="../assets/images/event/06.jpg" alt="06">
+          <h4 class="mb-3 fw-bold">展覽——我的房間</h4>
+          <p>每個人的房間總會有那麼一兩個能代表自己的物事，或許是再平凡不過的牙刷、馬克杯，或許有那些別人的房間從沒出現過的小東西——那些能定義自己的特別的東西。</p>
+          <div class="d-flex justify-content-between align-items-center border-top border-bottom border-2 border-dark py-1">
+            <div class="py-1 fw-bold d-flex align-items-center">
+              <a class="d-flex align-items-center" href="#">
+                <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <g clip-path="url(#clip0_4497_768)">
+                  <path d="M23.625 12C23.625 12 22.635 12.1875 20.7787 12.375C18.9225 12.5625 16.2037 12.75 12.75 12.75C12.75 19.6575 12 23.625 12 23.625C12 23.625 11.8125 22.635 11.625 20.7787C11.4375 18.9225 11.25 16.2037 11.25 12.75C4.3425 12.75 0.375 12 0.375 12C0.375 12 1.365 11.8125 3.22125 11.625C5.0775 11.4375 7.79625 11.25 11.25 11.25C11.25 4.3425 12 0.375 12 0.375C12 0.375 12.75 4.3425 12.75 11.25C19.6575 11.25 23.625 12 23.625 12Z" fill="#030303"/>
+                  <path d="M12.75 10.5C15 7.5 17.25 6.75 17.25 6.75C16.2833 8.46505 15.0126 9.98989 13.5 11.25" fill="#030303"/>
+                  <path d="M10.5 11.25C7.5 9 6.75 6.75 6.75 6.75C8.46505 7.71668 9.98989 8.98738 11.25 10.5" fill="#030303"/>
+                  <path d="M11.25 13.5C9 16.5 6.75 17.25 6.75 17.25C7.71668 15.5349 8.98738 14.0101 10.5 12.75" fill="#030303"/>
+                  <path d="M13.5 12.75C16.5 15 17.25 17.25 17.25 17.25C15.5349 16.2833 14.0101 15.0126 12.75 13.5" fill="#030303"/>
+                  <path d="M12 13.875C13.0355 13.875 13.875 13.0355 13.875 12C13.875 10.9645 13.0355 10.125 12 10.125C10.9645 10.125 10.125 10.9645 10.125 12C10.125 13.0355 10.9645 13.875 12 13.875Z" fill="#030303"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_4497_768">
+                  <rect width="24" height="24" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg><span class="hover-underline">遊戲競賽</span>
+              </a>
+              
+            </div>
+            <p class="m-0">
+              <a class="fw-bolder hover-secondary" href="#">
+                開賣中
+                <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M12.6144 7.55195L9.3632 4.30075C9.1152 4.05275 8.7136 4.05275 8.4656 4.30075L8.1856 4.58075C7.9376 4.82875 7.9376 5.23035 8.1856 5.47835L10.2608 7.55355C10.3856 7.67835 10.4464 7.83995 10.4464 8.00155C10.4464 8.16315 10.384 8.32635 10.2608 8.44955L8.1856 10.5247C7.9376 10.7727 7.9376 11.1743 8.1856 11.4223L8.4656 11.7023C8.7136 11.9471 9.1152 11.9471 9.3632 11.6991L12.6144 8.44795C12.7392 8.32315 12.8 8.16155 12.8 7.99995C12.8 7.83835 12.7376 7.67515 12.6144 7.55195ZM7.8144 7.55195L4.5632 4.30075C4.3152 4.05275 3.9136 4.05275 3.6656 4.30075L3.3856 4.58075C3.1376 4.82875 3.1376 5.23035 3.3856 5.47835L5.4608 7.55355C5.5856 7.67835 5.6464 7.83995 5.6464 8.00155C5.6464 8.16315 5.584 8.32635 5.4608 8.44955L3.3856 10.5247C3.1376 10.7727 3.1376 11.1743 3.3856 11.4223L3.6656 11.7023C3.9136 11.9471 4.3152 11.9471 4.5632 11.6991L7.8144 8.44795C7.9392 8.32315 8 8.16155 8 7.99995C8 7.83835 7.9376 7.67515 7.8144 7.55195Z" fill="black"/>
+                  </svg>
+              </a>
+            </p>
+          </div>
+        </div>       
+      </div>
+    </div>
+    <!--ONLINE-->
+    <div class="container">
+      <div class="border border-2 border-dark d-flex justify-content-between align-items-center px-5 py-4 mb-5">
+        <div class="fs-1">ONLINE</div>
+        <div class="fs-4 fw-bold">線上活動</div>
+      </div>
+      <div class="row mb-4 mb-md-6">
+        <div class="col-12 col-md-7">
+          <!--<img class="img-fluid img-cover mb-3" src="../assets/images/event/online.jpg" alt="online">-->
+          <div class="h-100 bg-online"></div>
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="fs-3 fw-bold mb-3">切特居批踢</div>
+          <div class="mb-5">
+          <a class="btn btn-outline-primary tag-border fw-bold me-1" href="#" role="button">競賽</a>
+          <a class="btn btn-outline-primary tag-border fw-bold me-1" href="#" role="button">科技</a>
+          <a class="btn btn-outline-primary tag-border fw-bold me-1" href="#" role="button">有趣</a>
+          </div>
+          <p class="mb-5">
+            最近網路上很流行的AI程式 ChatGPT，可以用來聊天或是查詢、整理各種資料，不同的應用方式如雨後春筍般冒出來。
+            這個活動讓大家把自己最有特色的使用方法提出來讓大家參考，也會投票出最有趣的用法。
+            該讓其他人知道自己使用 ChatGPT 的姿勢才是最特別的那個了！
+          </p>
+          <div class="d-grid">
+            <a class="btn btn-primary noto-sans-tc fs-5" type="button">查看活動詳情<svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M12.6144 7.55195L9.3632 4.30075C9.1152 4.05275 8.7136 4.05275 8.4656 4.30075L8.1856 4.58075C7.9376 4.82875 7.9376 5.23035 8.1856 5.47835L10.2608 7.55355C10.3856 7.67835 10.4464 7.83995 10.4464 8.00155C10.4464 8.16315 10.384 8.32635 10.2608 8.44955L8.1856 10.5247C7.9376 10.7727 7.9376 11.1743 8.1856 11.4223L8.4656 11.7023C8.7136 11.9471 9.1152 11.9471 9.3632 11.6991L12.6144 8.44795C12.7392 8.32315 12.8 8.16155 12.8 7.99995C12.8 7.83835 12.7376 7.67515 12.6144 7.55195ZM7.8144 7.55195L4.5632 4.30075C4.3152 4.05275 3.9136 4.05275 3.6656 4.30075L3.3856 4.58075C3.1376 4.82875 3.1376 5.23035 3.3856 5.47835L5.4608 7.55355C5.5856 7.67835 5.6464 7.83995 5.6464 8.00155C5.6464 8.16315 5.584 8.32635 5.4608 8.44955L3.3856 10.5247C3.1376 10.7727 3.1376 11.1743 3.3856 11.4223L3.6656 11.7023C3.9136 11.9471 4.3152 11.9471 4.5632 11.6991L7.8144 8.44795C7.9392 8.32315 8 8.16155 8 7.99995C8 7.83835 7.9376 7.67515 7.8144 7.55195Z" fill="white"/>
+              </svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--跑馬燈-->
+    <div class="swiper mySwiper mb-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      </div>
+    </div>
+    <!--活動-->
+    <div class="container mb-1">
+      <ul class="row list-unstyled mt-7 activity">
+        <li class="col-12 col-md-3 mb-6">
+          <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+            <h2 class="position-absolute top-0 start-50 translate-middle fs-6 bg-white px-3 py-2 fw-bold h2-transform">社群活動</h2>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/01.jpg?raw=true" class="img-fluid w-100" alt="社群活動">
+            <p class="pt-3">無聲派對-閉閉嘴dancing</p>
+          </div>
+        </li>
+        <li class="col-12 col-md-3 mb-6">
+          <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+            <h2 class="position-absolute top-0 start-50 fs-6 bg-white px-3 py-2 fw-bold h2-transform">藝文活動</h2>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/02.jpg?raw=true" class="img-fluid w-100" alt="藝文活動">
+            <p class="pt-3">搶救老店大作戰</p>
+          </div>
+        </li>
+        <li class="col-12 col-md-3 mb-6">
+          <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+            <h2 class="position-absolute top-0 start-50 fs-6 bg-white px-3 py-2 fw-bold h2-transform">自我覺察</h2>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/03.jpg?raw=true" class="img-fluid w-100" alt="自我覺察">
+            <p class="pt-3">內觀修行-部落篇</p>
+          </div>
+        </li>
+        <li class="col-12 col-md-3 mb-6">
+          <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+            <h2 class="position-absolute top-0 start-50 fs-6 bg-white px-3 py-2 fw-bold h2-transform">聯誼活動</h2>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/04.jpg?raw=true" class="img-fluid w-100" alt="聯誼活動">
+            <p class="pt-3">賞櫻野餐</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--跑馬燈-->
+    <div class="swiper mySwiper mb-7">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+      </div>
+    </div>
+    <!--#FOLLOW US #subscribe us-->
+    <div class="container mb-7">
+      <div class="row g-0 d-flex align-items-stretch followus">
+        <div class="col-12 col-md-6 mb-4">
+          <div class="border border-2 border-dark border-end-0 border-end-1">
+            <div class="fs-2 p-5 py-3 border-bottom border-2 border-dark">#FOLLOW US</div>
+            <div class="p-5">
+              <p class="mb-5">
+                想第一時間獲得新奇有趣的活動資訊？
+                <br>
+                追蹤我們的社群吧！
+                <br>
+                也歡迎你聯繫我們，提供好玩有趣的活動企劃。
+              </p>
+              <ul class="list-unstyled noto-sans-tc">
+                <li class="mb-4"><a class="" href="#"><i class="icofont-ui-email bg-dark text-light p-2 me-2"></i>7tao.event@gmail.com</a></li>
+                <li class="mb-4"><a class="" href="#"><i class="icofont-phone bg-dark text-light p-2 me-2"></i>09123123123</a></li>
+                <li class="mb-4"><a class="" href="#"><i class="icofont-facebook bg-dark text-light p-2 me-2"></i>7TAO七逃</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 mb-4">
+          <div class="border border-2 border-dark h-100 d-flex flex-column">
+            <div class="fs-2 p-5 py-3 border-bottom border-2 border-dark">#SUBSCRIBE US</div>
+            <div class="p-5">
+              <p class="mb-5">
+                訂閱電子報送折價券！
+                <br>
+                定期精選文章資訊及最新優惠資訊，
+                <br>
+                還不通通給我訂閱起來？
+              </p>
+              <input class="form-control form-control-lg noto-sans-tc" type="email" placeholder="輸入E-mail" aria-label=".form-control-lg example">
+            </div>
+            <div class="d-grid mt-auto">
+              <a class="btn btn-primary noto-sans-tc fs-5" type="button">確認訂閱<svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M12.6144 7.55195L9.3632 4.30075C9.1152 4.05275 8.7136 4.05275 8.4656 4.30075L8.1856 4.58075C7.9376 4.82875 7.9376 5.23035 8.1856 5.47835L10.2608 7.55355C10.3856 7.67835 10.4464 7.83995 10.4464 8.00155C10.4464 8.16315 10.384 8.32635 10.2608 8.44955L8.1856 10.5247C7.9376 10.7727 7.9376 11.1743 8.1856 11.4223L8.4656 11.7023C8.7136 11.9471 9.1152 11.9471 9.3632 11.6991L12.6144 8.44795C12.7392 8.32315 12.8 8.16155 12.8 7.99995C12.8 7.83835 12.7376 7.67515 12.6144 7.55195ZM7.8144 7.55195L4.5632 4.30075C4.3152 4.05275 3.9136 4.05275 3.6656 4.30075L3.3856 4.58075C3.1376 4.82875 3.1376 5.23035 3.3856 5.47835L5.4608 7.55355C5.5856 7.67835 5.6464 7.83995 5.6464 8.00155C5.6464 8.16315 5.584 8.32635 5.4608 8.44955L3.3856 10.5247C3.1376 10.7727 3.1376 11.1743 3.3856 11.4223L3.6656 11.7023C3.9136 11.9471 4.3152 11.9471 4.5632 11.6991L7.8144 8.44795C7.9392 8.32315 8 8.16155 8 7.99995C8 7.83835 7.9376 7.67515 7.8144 7.55195Z" fill="white"/>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <h1 class="index-title">我是首頁</h1>
-
-    <h1 class="index-title">我是首頁</h1>
-    <h1 class="index-title">我是首頁</h1>
-    <h1 class="index-title">我是首頁</h1>
+    <div class="border-top border-md-2 border-dark text-center p-6">
+      <div class="fs-3 fw-bold mb-1">此刻打盹，你將做夢；此刻學習，你將圓夢</div>
+      <div class="fs-5 fw-bold">——我也不知道誰說的</div>
+    </div>
 
 
 
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--swiper-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </body>
 </html>

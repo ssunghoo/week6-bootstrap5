@@ -1,4 +1,59 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+body{
+  background: #F3F1E5;
+  font-family: 'Yeseva One','Noto Serif TC';
+}
+
+p{
+  font-family: 'Noto Sans TC';
+}
+
+.noto-sans-tc{
+  font-family: 'Noto Sans TC';
+}
+
+.logo{
+  width: 53px;
+  height: 53px;
+}
+
+nav{
+  font-family: 'Yeseva One', 'Noto Serif TC';
+}
+
+.header-line{
+  border-bottom: 3px solid $primary;
+}
+
+@media (max-width: 768px){
+  .none{
+    display: none;
+  }
+}
+
+@media (max-width: 576px){
+  .header-input-xs{
+    max-width: 100%;
+  }
+  .none-xs{
+    display: none;
+  }
+}
+
+.tag-border{
+  position: relative;
+  border: 1px solid $primary;
+  border-left: 4px solid $primary;
+  padding: 4px 24px 4px 24px;
+}
+
+.tag-border:hover::before{
+  position: absolute;
+  content: "";
+  box-sizing: content-box;
+  height: 100%;
+  width: 2px;
+  left: -4px;
+  top: -1px;
+  border: 1px solid $secondary;
+  background-color: $secondary;
 }
